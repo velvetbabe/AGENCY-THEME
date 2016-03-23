@@ -1,0 +1,17 @@
+/*MIXINS*/
+@mixin holder($text, $weight, $light-gray) {
+    text-transform: $text;
+    font-weight: $weight;
+    color: $light-gray;
+}
+
+@mixin focus($white, $orange1, $orange2) {
+    color: $white;
+    background-color: $orange1;
+    border-color: $orange2;
+}
+
+@mixin btn($yellow1, $yellow2) {
+    background-color: $yellow1;
+    border-color: $yellow2;
+}
